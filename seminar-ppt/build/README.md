@@ -1,8 +1,9 @@
 # Building the seminar decks
 
-Both decks are generated from the BIT Seminar-I template (`../template/`) with python-pptx.
-Every slide is a clone of a template slide, so the template's header banner, logo, title
-styling and slide numbers are kept; diagrams are native, editable PowerPoint shapes.
+Both decks are generated with python-pptx on the BIT Seminar-I template's 4:3 canvas
+(`../template/`), reusing its institute logo and header banner. `design.py` holds the shared
+design system (palettes, cover, agenda, content frame, cards, tables, code panels); each
+deck script holds its content. Diagrams are native, editable PowerPoint shapes.
 
 ```bash
 # icons (one-time): needs react, react-dom, react-icons, sharp in some node_modules dir

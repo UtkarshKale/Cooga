@@ -23,10 +23,14 @@ const ICONS = {
   map: ["fa", "FaMapMarkedAlt"], drone: ["gi", "GiDeliveryDrone"], hands: ["fa", "FaHandsHelping"],
   lightbulb: ["fa", "FaLightbulb"], eye: ["fa", "FaEye"], clock: ["fa", "FaClock"],
   balance: ["fa", "FaBalanceScale"], sitemap: ["fa", "FaSitemap"], network: ["fa", "FaNetworkWired"],
-  terminal: ["fa", "FaTerminal"], quake: ["gi", "GiEarthCrack"], cyclone: ["gi", "GiTornado"],
+  terminal: ["fa", "FaTerminal"], quake: ["gi", "GiEarthCrack"], arrowr: ["fa", "FaArrowRight"], times: ["fa", "FaTimesCircle"], cyclone: ["gi", "GiTornado"],
   sensor: ["md", "MdSensors"], target: ["fa", "FaBullseye"], money: ["fa", "FaCoins"],
 };
-const COLORS = { w: "#FFFFFF", n: "#1F497D", b: "#4F81BD", o: "#E46C0A", r: "#C0504D", g: "#76923C" };
+const COLORS = {
+  w: "#FFFFFF", m: "#6A6886", g: "#2E9E6A", r: "#D64545",
+  ap: "#5B4CDB", aa: "#F2643D", ai: "#17153A",   // Agentic AI palette
+  dp: "#12807F", da: "#EA6A1E", di: "#0E2B31",   // Disaster Management palette
+};
 
 (async () => {
   for (const [key, [lib, name]] of Object.entries(ICONS)) {
