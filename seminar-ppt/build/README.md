@@ -1,9 +1,10 @@
 # Building the seminar decks
 
 Both decks are generated with python-pptx on the BIT Seminar-I template's 4:3 canvas
-(`../template/`), reusing its institute logo and header banner. `design.py` holds the shared
-design system (palettes, cover, agenda, content frame, cards, tables, code panels); each
-deck script holds its content. Diagrams are native, editable PowerPoint shapes.
+(`../template/`), reusing its institute logo and header banner. `design.py` is the design system
+for the Agentic AI deck; `vedika_design.py` is a separate "hazard signage" design system for
+the Disaster Management deck, so the two decks look independently made. Each deck script
+holds its own content. Diagrams are native, editable PowerPoint shapes.
 
 ```bash
 # icons (one-time): needs react, react-dom, react-icons, sharp in some node_modules dir

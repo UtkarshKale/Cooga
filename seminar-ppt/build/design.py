@@ -39,7 +39,8 @@ DISASTER = dict(
 ALIGN = {"l": PP_ALIGN.LEFT, "c": PP_ALIGN.CENTER, "r": PP_ALIGN.RIGHT}
 ANCHOR = {"t": MSO_ANCHOR.TOP, "m": MSO_ANCHOR.MIDDLE, "b": MSO_ANCHOR.BOTTOM}
 SHAPES = {"rect": MSO_SHAPE.RECTANGLE, "rrect": MSO_SHAPE.ROUNDED_RECTANGLE, "oval": MSO_SHAPE.OVAL,
-          "diamond": MSO_SHAPE.DIAMOND, "chevron": MSO_SHAPE.CHEVRON}
+          "diamond": MSO_SHAPE.DIAMOND, "chevron": MSO_SHAPE.CHEVRON,
+          "callout": MSO_SHAPE.ROUNDED_RECTANGULAR_CALLOUT}
 
 
 def rgb(h):

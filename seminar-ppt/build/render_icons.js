@@ -30,6 +30,7 @@ const COLORS = {
   w: "#FFFFFF", m: "#6A6886", g: "#2E9E6A", r: "#D64545",
   ap: "#5B4CDB", aa: "#F2643D", ai: "#17153A",   // Agentic AI palette
   dp: "#12807F", da: "#EA6A1E", di: "#0E2B31",   // Disaster Management palette
+  vc: "#23272B", va: "#F4A81D", vr: "#D9472B", vb: "#2C6E91", vg: "#3C9D5D", // Vedika's deck
 };
 
 (async () => {
